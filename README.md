@@ -10,4 +10,5 @@ If you are not setting miniforge into PATH you can use Miniforge Prompt app
 
 Got to your project folder.
 - check the CUDA version your GPU is using
+- run: pip install --user torch diffusers
 - run: pip install torch --user --extra-index-url https://download.pytorch.org/whl/cu117
