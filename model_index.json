@@ -1,0 +1,10 @@
+{
+  "_class_name": "StableDiffusionPipeline",
+  "model_type": "StableDiffusionPipeline",
+  "pipeline_tag": "stable-diffusion",
+  "weights": [
+    {
+      "filename": "MaleShepard.safetensors"
+    }
+  ]
+}
