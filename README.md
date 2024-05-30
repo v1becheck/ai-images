@@ -9,6 +9,6 @@ If you are not setting miniforge into PATH you can use Miniforge Prompt app
 - run: python -m pip install diffusers transformers tokenizers accelerate peft datasets loguru requests devtools einops
 
 Got to your project folder.
-- check the CUDA version your GPU is using
+- check the CUDA version your GPU is using - change https://download.pytorch.org/whl/cu117 as needed
 - run: pip install --user torch diffusers
 - run: pip install torch --user --extra-index-url https://download.pytorch.org/whl/cu117
