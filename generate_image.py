@@ -9,3 +9,4 @@ with torch.inference_mode():
         negative_prompt="worst quality, low quality, score_1, score_2, score_3", # the negative prompt
     ).images[0]
     image.save("image_of_elf_with_long_ears.jpg", quality=95)
+    
